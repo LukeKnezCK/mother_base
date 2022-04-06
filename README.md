@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Mother Base Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project built to serve as a personal-website/portfolio. 
 
-## Available Scripts
+## Stack
 
-In the project directory, you can run:
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Three.js](https://threejs.org/) - 3D library for JavaScript
 
-### `npm start`
+## License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.txt)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can fork or use the source code of this project for free without notifying me, though if you do I would be curious to see what you make :^)
 
-### `npm test`
+## Development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Below is the timeline for the development of this project in all aspects (Code, Art, etc).
 
-### `npm run build`
+### Mockups
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To begin development I first created mockups to get a basic idea of the layout and look/feel of the site using [Figma](https://www.figma.com).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I drew up designs for both mobile and desktop.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Desktop Designs
 
-### `npm run eject`
+![Image of Desktop Mockups](/READMEassets/DesktopMockup.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Mobile Designs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Image of Mobile Mockups](/READMEassets/MobileMockup.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Some of the assets and designs of the final site differ pretty significantly from the mockups since these were mainly for a general idea.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Voxel Modeling 
 
-## Learn More
+I wanted to create some sort of 3D art to showcase and act sort of as a logo for the website. I created a couple of models before deciding on a final selection.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Image of Blender Donut Tutorial](/READMEassets/donut.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Before deciding on a voxel style I initally pursued the idea of creating a high-poly model.
 
-### Code Splitting
+Eventually I switched to using MagicaVoxel to create models in an art style I felt more of an affinity for.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Image of MotherBase Model Creation Process 1](/READMEassets/MotherBaseBuild1.png)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Image of MotherBase Model Creation Process 2](/READMEassets/MotherBaseBuild2.png)
