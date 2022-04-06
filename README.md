@@ -5,7 +5,14 @@ Project built to serve as a personal-website/portfolio.
 ## Stack
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Three.js](https://threejs.org/) - 3D library for JavaScript
+- [Three.js](https://threejs.org/) - 3D library for JavaScript.
+
+## Tools
+
+-[VS Code](https://code.visualstudio.com/) - Code Editor.
+-[Blender](https://www.blender.org/) - 3D CG Toolset.
+-[MagickaVoxel](https://ephtracy.github.io/) - Voxel Art Editor.
+-[Figma](https://www.figma.com) - Web Based Prototyping Tool.
 
 ## License
 
@@ -19,7 +26,7 @@ Below is the timeline for the development of this project in all aspects (Code, 
 
 ### Mockups
 
-To begin development I first created mockups to get a basic idea of the layout and look/feel of the site using [Figma](https://www.figma.com).
+To begin development I first created mockups to get a basic idea of the layout and look/feel of the site.
 
 I drew up designs for both mobile and desktop.
 
