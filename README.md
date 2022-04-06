@@ -9,10 +9,10 @@ Project built to serve as a personal-website/portfolio.
 
 ## Tools
 
--[VS Code](https://code.visualstudio.com/) - Code Editor.
--[Blender](https://www.blender.org/) - 3D CG Toolset.
--[MagickaVoxel](https://ephtracy.github.io/) - Voxel Art Editor.
--[Figma](https://www.figma.com) - Web Based Prototyping Tool.
+- [VS Code](https://code.visualstudio.com/) - Code Editor.
+- [Blender](https://www.blender.org/) - 3D CG Toolset.
+- [MagickaVoxel](https://ephtracy.github.io/) - Voxel Art Editor.
+- [Figma](https://www.figma.com) - Web Based Prototyping Tool.
 
 ## License
 
