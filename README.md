@@ -44,6 +44,8 @@ Before deciding on a voxel style I initally pursued the idea of creating a high-
 
 Eventually I switched to using MagicaVoxel to create models in an art style I felt more of an affinity for.
 
+Below is couple of screenshots of the modeling process.
+
 ![Image of MotherBase Model Creation Process 1](/READMEassets/MotherBaseBuild1.png)
 
 ![Image of MotherBase Model Creation Process 2](/READMEassets/MotherBaseBuild2.png)
@@ -52,8 +54,12 @@ Eventually I switched to using MagicaVoxel to create models in an art style I fe
 
 ![Image of MotherBase Model Creation Process 4](/READMEassets/MotherBaseBuild4.png)
 
-![Image of MotherBase Model Creation Process 5](/READMEassets/MotherBaseBuild5.png)
+![Image of MotherBase Model Creation Process 5](/READMEassets/Motherbasebuild5.png)
 
 The whole process of creating the model took about 3 days of on and off work. Below is a render of the final product.
 
 ![Image of MotherBase Model Creation Process Final](/READMEassets/finalbuild.png)
+
+I also made a couple other models, though they are much simpler and didnt take nearly as long.
+
+![Image of Advance Wars Tank Art](/READMEassets/tank.png)
