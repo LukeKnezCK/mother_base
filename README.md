@@ -14,12 +14,6 @@ Project built to serve as a personal-website/portfolio.
 - [MagickaVoxel](https://ephtracy.github.io/) - Voxel Art Editor.
 - [Figma](https://www.figma.com) - Web Based Prototyping Tool.
 
-## License
-
-[GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.txt)
-
-You can fork or use the source code of this project for free without notifying me, though if you do I would be curious to see what you make :^)
-
 ## Development
 
 Below is the timeline for the development of this project in all aspects (Code, Art, etc).
@@ -53,3 +47,13 @@ Eventually I switched to using MagicaVoxel to create models in an art style I fe
 ![Image of MotherBase Model Creation Process 1](/READMEassets/MotherBaseBuild1.png)
 
 ![Image of MotherBase Model Creation Process 2](/READMEassets/MotherBaseBuild2.png)
+
+![Image of MotherBase Model Creation Process 3](/READMEassets/MotherBaseBuild3.png)
+
+![Image of MotherBase Model Creation Process 4](/READMEassets/MotherBaseBuild4.png)
+
+![Image of MotherBase Model Creation Process 5](/READMEassets/MotherBaseBuild5.png)
+
+The whole process of creating the model took about 3 days of on and off work. Below is a render of the final product.
+
+![Image of MotherBase Model Creation Process Final](/READMEassets/finalbuild.png)
