@@ -54,7 +54,7 @@ Below is couple of screenshots of the modeling process.
 
 ![Image of MotherBase Model Creation Process 4](/READMEassets/MotherBaseBuild4.png)
 
-![Image of MotherBase Model Creation Process 5](/READMEassets/Motherbasebuild5.png)
+![Image of MotherBase Model Creation Process 5](/READMEassets/motherbasebuild5.png)
 
 The whole process of creating the model took about 3 days of on and off work. Below is a render of the final product.
 
