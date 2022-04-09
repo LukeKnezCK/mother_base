@@ -6,12 +6,12 @@ import '../App.css'
 
 function MBScene() {
     return (
-        <Canvas className='canvas' camera={{position: [7,7,8]}}>
+        <Canvas className='canvas' camera={{position: [2,2,11], fov: 75}}>
             <OrbitControls enableZoom={true} />
-            <ambientLight intensity={0.25} />
-            <pointLight position={[-10,10,-10]} intensity={0.25}/>
+            <ambientLight intensity={0.2} />
+            <spotLight position={[2,2,10]} angle={1} penumbra={1} intensity={0.35}/>
             <Suspense fallback={null}>
-                <Mb2 />
+                <Mb2/>
             </Suspense>
         </Canvas>
     )
