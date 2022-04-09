@@ -1,9 +1,12 @@
-.canvas {
-  height: 640px;
-  width: 640px;
+.outerContainer{
+  font-family: SourceCodepro;
+  max-width: 768px;
 }
 
-.container{
-  height: 640px;
-  width: 640px;
+.canvas{
+  aspect-ratio: 1/1;
+}
+
+.canvasRow{
+  display:block;
 }

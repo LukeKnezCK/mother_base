@@ -1,14 +1,15 @@
 import { Suspense } from 'react';
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import Mb2 from "./components/Mb2"
+import Mb2 from "./Mb2"
+import '../App.css'
 
-function MB_Scene() {
+function MBScene() {
     return (
-        <Canvas className='canvas'>
+        <Canvas className='canvas' camera={{position: [7,7,8]}}>
             <OrbitControls enableZoom={true} />
             <ambientLight intensity={0.25} />
-            <directionalLight position={[2, 5, 1]} />
+            <pointLight position={[-10,10,-10]} intensity={0.25}/>
             <Suspense fallback={null}>
                 <Mb2 />
             </Suspense>
@@ -16,4 +17,4 @@ function MB_Scene() {
     )
 }
 
-export default MB_Scene
+export default MBScene
