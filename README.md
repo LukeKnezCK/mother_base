@@ -63,3 +63,5 @@ The whole process of creating the model took about 3 days of on and off work. Be
 I also made a couple other models, though they are much simpler and didnt take nearly as long.
 
 ![Image of Advance Wars Tank Art](/READMEassets/tank.png)
+
+![Image of Hat Art](/READMEassets/hatRender.png)
