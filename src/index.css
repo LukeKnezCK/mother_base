@@ -14,3 +14,8 @@ code {
   font-family: SourceCodeProLight;
   src: url(./fonts/SourceCodePro-Light.ttf);
 }
+
+@font-face {
+  font-family: MGS2;
+  src: url(./fonts/MGS2MENU.TTF);
+}

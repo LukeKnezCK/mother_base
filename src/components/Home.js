@@ -6,16 +6,16 @@ import MBScene from './MBScene'
 
 function Home() {
     return(
-        <Container fluid className='outerContainer' style={{justifyContent:'center', flexDirection:'row'}}>
+        <Container fluid className='outerContainer'>
             <Row style={{justifyContent:'center'}}>
                 <Col style={{maxWidth:'600px'}}>
                     <MBScene/>
                 </Col>
             </Row>
-            <Row>
-                <Col>
+            <Row style={{justifyContent:'center'}}>
+                <Col style={{maxWidth:'fit-content'}}>
                     <Card className='textBox'>
-                        <Card.Body className='text1'>Welcome to Mother Base, </Card.Body>
+                        <Card.Body className='text1'>WELCOME TO MOTHER BASE</Card.Body>
                     </Card>
                 </Col>
             </Row>
