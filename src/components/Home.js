@@ -22,7 +22,7 @@ function Home() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col style={{ maxWidth: 'fit-content', marginLeft: '5%' }}>
+                    <Col style={{ maxWidth: 'fit-content'}}>
                         <Card className='labelBox'>
                             <Card.Body className='labelCard'><img className='icon' src={Support} alt='Support Icon' /> About</Card.Body>
                         </Card>
