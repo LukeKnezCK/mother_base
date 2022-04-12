@@ -1,9 +1,11 @@
 .outerContainer{
   font-family: SourceCodepro;
-  max-width: 768px;
+  max-width: 90%;
   background: linear-gradient(90deg, rgba(37,52,58,1) 0%, rgba(25,71,93,0.75) 10%, rgba(25,71,93,0.75) 90%, rgba(37,52,58,1) 100%),
     url(./assets/background.png) ; 
   height: 100vh;
+  justify-content: center;
+  overflow: auto;
 }
 
 .canvas{
@@ -16,9 +18,31 @@
   margin-top: 10px;
 }
 
-.text1{
+.labelBox{
+  text-align: center;
+  background-color: rgba(59,103,120,0.5) !important;
+  margin-top: 10px;
+}
+
+.icon{
+  max-width: 35px;
+}
+
+.labelCard{
+  color: white;
+  font-size: 3vh;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+
+.welcomeSign{
   color:white;
   font-size: 1.7vh;
   font-family: MGS2;
   letter-spacing: 3px;
+}
+
+.longText{
+  color:white;
+  font-size: 1em;
 }
