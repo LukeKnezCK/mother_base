@@ -8,6 +8,10 @@
   overflow: auto;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .canvas{
   aspect-ratio: 1/0.75;
 }
@@ -18,6 +22,10 @@
   margin-top: 10px;
 }
 
+.labelRow{
+  margin-top: 3vh !important;
+}
+
 .labelBox{
   text-align: center;
   background-color: rgba(59,103,120,0.5) !important;
@@ -25,7 +33,7 @@
 }
 
 .icon{
-  max-width: 35px;
+  width: 3vh;
 }
 
 .labelCard{
@@ -45,4 +53,40 @@
 .longText{
   color:white;
   font-size: 1em;
+}
+
+.longBox{ 
+  background-color: rgba(59,103,120,0.5) !important;
+  margin-top: 10px;
+}
+
+.longBox p{
+  margin: 0px;
+}
+
+.footer{
+  color:white;
+  font-size: 0.8em;
+  margin-top: 2vh;
+}
+
+.Nav{
+  justify-content: center;
+  max-width: 768px;
+}
+
+.NavLink{
+  color: rgb(201, 201, 201) !important;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  background-color: rgba(59,103,120,0.5);
+  margin: 0.1vw;
+}
+
+.NavLink:hover{
+  color: white !important;
+}
+
+.active{
+  color: white !important;
 }
