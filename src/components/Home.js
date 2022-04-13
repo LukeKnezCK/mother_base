@@ -71,7 +71,7 @@ function Home() {
                     <Col style={{maxWidth: 'fit-content'}}>
                         <Card className='labelBox'>
                             <Card.Body className='labelCard'>
-                                Development ►
+                                Projects ►
                             </Card.Body>
                         </Card>
                     </Col>

@@ -81,12 +81,19 @@
   backdrop-filter: blur(6px);
   background-color: rgba(59,103,120,0.5);
   margin: 0.1vw;
+  opacity: 0.75;
 }
 
 .NavLink:hover{
   color: white !important;
+  opacity: 1;
 }
 
 .active{
   color: white !important;
+  opacity: 1;
+}
+
+.NavIcon{
+  max-width: 2vh;
 }
