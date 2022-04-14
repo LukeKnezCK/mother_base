@@ -2,7 +2,7 @@ import '../App.css'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import Basedev from '../assets/BaseDev.png'
 
-import MBScene from './MBScene'
+import MuniScene from './MuniScene'
 import TopNav from './TopNav'
 
 function Work() {
@@ -17,7 +17,7 @@ function Work() {
                 </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '5vh' }}>
                     <Col style={{ maxWidth: '600px' }}>
-                        <MBScene />
+                        <MuniScene/>
                     </Col>
                 </Row> 
                 <Row className='labelRow'>
@@ -27,15 +27,15 @@ function Work() {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center', margin:'15px'}}>
-                    <Col style={{maxWidth: 'fit-content'}}>
+                <Row style={{justifyContent:'center'}}>
+                    <Col fluid style={{minWidth:'259px'}}>
                         <Card className='labelBox'>
                             <Card.Body className='labelCard'>
                                 Project Desc
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col style={{maxWidth: 'fit-content'}}>
+                    <Col fluid style={{minWidth:'259px'}}>
                         <Card className='labelBox'>
                             <Card.Body className='labelCard'>
                                 Project Desc
@@ -43,15 +43,15 @@ function Work() {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center', margin:'15px'}}>
-                    <Col style={{maxWidth: 'fit-content'}}>
+                <Row style={{justifyContent:'center'}}>
+                    <Col fluid style={{minWidth:'259px'}}>
                         <Card className='labelBox'>
                             <Card.Body className='labelCard'>
                                 Project Desc
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col style={{maxWidth: 'fit-content'}}>
+                    <Col fluid style={{minWidth:'259px'}}>
                         <Card className='labelBox'>
                             <Card.Body className='labelCard'>
                                 Project Desc
