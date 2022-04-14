@@ -11,12 +11,12 @@ function Home() {
     return (
         <Container fluid className='outerContainer'>
             <Container fluid style={{ maxWidth: '768px' }}>
-                <Row style={{alignItems:'center', position:'sticky', top:'0', zIndex:'999'}}>
-                    <Col style={{justifyContent:'center'}}>
-                        <TopNav Page='1'/>
+                <Row style={{ alignItems: 'center', position: 'sticky', top: '0', zIndex: '999' }}>
+                    <Col style={{ justifyContent: 'center' }}>
+                        <TopNav Page='1' />
                     </Col>
                 </Row>
-                <Row style={{ justifyContent: 'center', marginTop:'5vh'}}>
+                <Row style={{ justifyContent: 'center', marginTop: '5vh' }}>
                     <Col style={{ maxWidth: '600px' }}>
                         <MBScene />
                     </Col>
@@ -67,17 +67,19 @@ function Home() {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center', marginTop:'3vh'}}>
-                    <Col style={{maxWidth: 'fit-content'}}>
+                <Row style={{ justifyContent: 'center', marginTop: '3vh' }}>
+                    <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <Card.Body className='labelCard'>
-                                Projects ►
-                            </Card.Body>
+                            <a href='/#/Work' style={{textDecoration:'none'}}>
+                                <Card.Body className='labelCard'>
+                                    Projects ►
+                                </Card.Body>
+                            </a>
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center'}}>
-                    <Col style={{maxWidth:'fit-content'}}>
+                <Row style={{ justifyContent: 'center' }}>
+                    <Col style={{ maxWidth: 'fit-content' }}>
                         <div className='footer'>
                             <p>Created By LCK 2022 ♫</p>
                         </div>
