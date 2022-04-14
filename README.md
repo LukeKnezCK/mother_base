@@ -60,8 +60,8 @@ The whole process of creating the model took about 3 days of on and off work. Be
 
 ![Image of MotherBase Model Creation Process Final](/READMEassets/finalbuild.png)
 
-I also made a couple other models, though they are much simpler and didnt take nearly as long.
+Here are the renders for the other models I made for the site
 
-![Image of Advance Wars Tank Art](/READMEassets/tank.png)
+![Image of Muni Model](/READMEassets/MuniStation.png)
 
 ![Image of Hat Art](/READMEassets/hatRender.png)
