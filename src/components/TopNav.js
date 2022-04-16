@@ -1,8 +1,5 @@
 import { Nav} from "react-bootstrap";
 import '../App.css'
-import Command from '../assets/command.png'
-import Intel from '../assets/Intel.png'
-import Wrench from '../assets/wrench.png'
 
 function TopNav(props) {
     return (

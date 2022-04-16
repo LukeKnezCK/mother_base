@@ -32,6 +32,14 @@
   margin-top: 10px;
 }
 
+.labelLink{
+  text-decoration: none;
+}
+
+.labelLink :hover{ 
+  color: rgb(118, 190, 248);
+}
+
 .icon{
   width: 3vh;
 }
@@ -96,4 +104,35 @@
 
 .NavIcon{
   max-width: 2vh;
+}
+
+.contacts{
+  color: white;
+}
+
+.contacts a, .contacts p{
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.contacts a:hover{
+  color: rgb(118, 190, 248);
+}
+
+.contacts svg{
+  margin-right: 15px;
+}
+
+.projectDesc{
+  font-size: 1em;
+  color: white;
+}
+
+.projectDesc p{
+  margin-bottom: 0px
 }
