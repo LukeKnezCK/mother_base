@@ -33,9 +33,13 @@ function Contact() {
                     <Col>
                         <Card className='longBox'>
                             <Card.Body className='contacts'>
+                                <Card.Text>
                                 <a href='https://github.com/LukeKnezCK' target="_blank" rel='noreferrer'><FaGithub/> Github: LukeKnezCK</a>
-                                <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer'><HiOutlineMail/> Email: LukeKnez1386@protonmail.com</a>
-                                </Card.Body>
+                                </Card.Text>
+                                <Card.Text>
+                                    <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer'><HiOutlineMail/> Email: LukeKnez1386@protonmail.com</a>
+                                </Card.Text>
+                            </Card.Body>
                         </Card>
                     </Col>
                 </Row>
