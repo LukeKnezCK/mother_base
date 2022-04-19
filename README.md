@@ -6,6 +6,7 @@ Project built to serve as a personal-website/portfolio.
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - [Three.js](https://threejs.org/) - 3D library for JavaScript.
+- [Github Pages](https://pages.github.com/) - Website Hosting.
 
 ## Tools
 
@@ -64,4 +65,4 @@ Here are the renders for the other models I made for the site
 
 ![Image of Muni Model](/READMEassets/MuniStation.png)
 
-![Image of Hat Art](/READMEassets/hatRender.png)
+![Image of Room Model](/READMEassets/room.png)
