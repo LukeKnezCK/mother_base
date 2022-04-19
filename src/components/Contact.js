@@ -5,7 +5,7 @@ import Command from '../assets/command.png'
 import {FaGithub} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 
-import MBScene from './MBScene'
+import RoomScene from './RoomScene'
 import TopNav from './TopNav'
 
 function Contact() {
@@ -19,7 +19,7 @@ function Contact() {
                 </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '5vh' }}>
                     <Col style={{ maxWidth: '600px' }}>
-                        <MBScene />
+                        <RoomScene />
                     </Col>
                 </Row> 
                 <Row className='labelRow'>
