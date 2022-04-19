@@ -15,7 +15,7 @@ export default function Model({ ...props }) {
   })
   return (
     <group ref={group} {...props} dispose={null}>
-      <mesh geometry={nodes.treeIsland.geometry} material={materials['Material.001']} position={[1.01, -0.9, 5.26]} rotation={[0, Math.PI / 2, 0]} />
+      <mesh geometry={nodes.treeIsland.geometry} material={materials['Material.001']} position={[-0.1, -1.67, 3.22]} rotation={[0, Math.PI / 2, 0]} />
     </group>
   )
 }
