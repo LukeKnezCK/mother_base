@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/mother_base/static/css/main.0f6e6b77.css",
-    "main.js": "/mother_base/static/js/main.e9a0e6e5.js",
+    "main.js": "/mother_base/static/js/main.ea18ebcc.js",
     "static/js/787.3f6299e2.chunk.js": "/mother_base/static/js/787.3f6299e2.chunk.js",
+    "static/media/Muni.gltf": "/mother_base/static/media/Muni.84991d77e50ba099ed50.gltf",
+    "static/media/Room.gltf": "/mother_base/static/media/Room.e32ca1faef196fe0ec50.gltf",
+    "static/media/Mb2.gltf": "/mother_base/static/media/Mb2.ac90604f644daa5a8268.gltf",
     "static/media/DoReMeet.png": "/mother_base/static/media/DoReMeet.ad43598af2364de4dc3b.png",
     "static/media/EER.png": "/mother_base/static/media/EER.d8c16d41df59bfb0196b.png",
     "static/media/uLearn.PNG": "/mother_base/static/media/uLearn.6d1b4f2373538d8d8f17.PNG",
@@ -12,11 +15,11 @@
     "static/media/MGS2MENU.TTF": "/mother_base/static/media/MGS2MENU.8dcc1f27288f29e2ec60.TTF",
     "index.html": "/mother_base/index.html",
     "main.0f6e6b77.css.map": "/mother_base/static/css/main.0f6e6b77.css.map",
-    "main.e9a0e6e5.js.map": "/mother_base/static/js/main.e9a0e6e5.js.map",
+    "main.ea18ebcc.js.map": "/mother_base/static/js/main.ea18ebcc.js.map",
     "787.3f6299e2.chunk.js.map": "/mother_base/static/js/787.3f6299e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f6e6b77.css",
-    "static/js/main.e9a0e6e5.js"
+    "static/js/main.ea18ebcc.js"
   ]
 }
