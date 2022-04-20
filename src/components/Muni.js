@@ -24,4 +24,4 @@ export default function Model({ ...props }) {
   )
 }
 
-useGLTF.preload('/Muni.gltf')
+useGLTF.preload(Muni)

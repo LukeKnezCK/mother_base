@@ -21,4 +21,4 @@ export default function Model({ ...props }) {
   )
 }
 
-useGLTF.preload('/Room.gltf')
+useGLTF.preload(Room)

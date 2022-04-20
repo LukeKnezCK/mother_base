@@ -22,4 +22,4 @@ export default function Model({ ...props }) {
   )
 }
 
-useGLTF.preload('/Mb2.gltf')
+useGLTF.preload(Mb2)
