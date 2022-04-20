@@ -4,6 +4,7 @@ import Intel from '../assets/Intel.png'
 import Command from '../assets/command.png'
 import {FaGithub} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
+import {AiOutlineSmile} from 'react-icons/ai'
 
 import RoomScene from './RoomScene'
 import TopNav from './TopNav'
@@ -64,7 +65,7 @@ function Contact() {
                 <Row style={{justifyContent:'center'}}>
                     <Col style={{maxWidth:'fit-content'}}>
                         <div className='footer'>
-                            <p>Created By LCK 2022 ♫</p>
+                            <p>Created By LCK 2022 <AiOutlineSmile/> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub/></a> </p>
                         </div>
                     </Col>
                 </Row>

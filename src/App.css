@@ -30,6 +30,7 @@
   text-align: center;
   background-color: rgba(59,103,120,0.5) !important;
   margin-top: 10px;
+  color: white;
 }
 
 .labelLink{
@@ -132,4 +133,40 @@
 
 .projectDesc p{
   margin-bottom: 0px
+}
+
+.nameTitle{
+  font-size: 2em;
+  margin: 0px;
+  font-family: SourceCodeProLight;
+  align-self: flex-end;
+}
+
+.nameSub{
+  padding: 0px;
+  font-size: 1em;
+  margin: 0px;
+}
+
+.nameCard{
+  color: white;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.nameBox{
+  text-align: center;
+  background-color: rgba(59,103,120,0.5) !important;
+  margin-top: 10px;
+  color: white;
+}
+
+.footerSource{
+  color:white;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.footerSource:hover{
+  color: rgb(155, 210, 255);
 }

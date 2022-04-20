@@ -5,6 +5,8 @@ import uLearn from '../assets/uLearn.PNG'
 import DoReMeet from '../assets/DoReMeet.png'
 import EER from '../assets/EER.png'
 import RPS from '../assets/RPS.png'
+import {FaGithub} from 'react-icons/fa'
+import {AiOutlineSmile} from 'react-icons/ai'
 
 import MuniScene from './MuniScene'
 import TopNav from './TopNav'
@@ -74,7 +76,7 @@ function Work() {
                 <Row style={{justifyContent:'center'}}>
                     <Col style={{maxWidth:'fit-content'}}>
                         <div className='footer'>
-                            <p>Created By LCK 2022 ♫</p>
+                            <p>Created By LCK 2022 <AiOutlineSmile/> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub/></a> </p>
                         </div>
                     </Col>
                 </Row>

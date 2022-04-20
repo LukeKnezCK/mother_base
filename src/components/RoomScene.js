@@ -6,7 +6,7 @@ import '../App.css'
 
 function RoomScene() {
     return (
-        <Canvas className='canvas' camera={{position: [8, 5, 9], fov: 60}}>
+        <Canvas className='canvas' camera={{position: [6, 3, 7.5], fov: 60}}>
             <OrbitControls enableZoom={true} />
             <ambientLight intensity={0.35} />
             <spotLight position={[10,3,10]} angle={1} penumbra={1} intensity={0.35}/>

@@ -1,8 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../App.css'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col, Card, Image} from 'react-bootstrap'
 import Support from '../assets/Support.png'
 import Basedev from '../assets/BaseDev.png'
+import Hat from '../assets/hat.png'
+import {FaGithub} from 'react-icons/fa'
+import {AiOutlineSmile} from 'react-icons/ai'
 
 import MBScene from './MBScene'
 import TopNav from './TopNav'
@@ -28,6 +31,16 @@ function Home() {
                         </Card>
                     </Col>
                 </Row>
+                <Row style={{ justifyContent: 'center'}}>
+                    <Col style={{ maxWidth: 'fit-content' }}>
+                        <Card className='nameBox'>
+                            <Card.Body className='nameCard'>
+                                <Card.Text className='nameTitle'>Luke CK <Image style={{height:'4vh'}} src={Hat}/></Card.Text>
+                                <Card.Text className='nameSub'>Digital Artist: (Developer, Animator, Musician)</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
                 <Row className='labelRow'>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
@@ -43,7 +56,7 @@ function Home() {
                                 arbirtrary niche personal projects as well as increasing the
                                 chances of obtaining gainful employment in order to avoid
                                 the possibility of becoming completely impoverished
-                                and destitute, living in refuse and squalor.</Card.Body>
+                                and destitute, living in refuse and squalor in the gutters of the city.</Card.Body>
                         </Card>
                     </Col>
                 </Row>
@@ -58,7 +71,7 @@ function Home() {
                     <Col>
                         <Card className='longBox'>
                             <Card.Body className='longText'>
-                                Some of the tools and tech we use include:
+                                <p>Some of the tools and tech I use include:</p>
                                 <p>  • Python, Javascript/Typescript, C/C++, SQL, HTML, CSS</p>
                                 <p>  • AWS, Github/Gitlab, Linux based Systems</p>
                                 <p>  • Photoshop CS6, Flash CS3, Waveform 11</p>
@@ -81,7 +94,7 @@ function Home() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <div className='footer'>
-                            <p>Created By LCK 2022 ♫</p>
+                            <p>Created By LCK 2022 <AiOutlineSmile/> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub/></a> </p>
                         </div>
                     </Col>
                 </Row>
