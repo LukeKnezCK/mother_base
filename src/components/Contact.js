@@ -15,7 +15,7 @@ function Contact() {
             <Container fluid style={{ maxWidth: '768px' }}>
                 <Row style={{ alignItems: 'center', position: 'sticky', top: '0', zIndex: '999' }}>
                     <Col style={{ justifyContent: 'center' }}>
-                        <TopNav Page='3' />
+                        <TopNav page='3' />
                     </Col>
                 </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '5vh' }}>

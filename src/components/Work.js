@@ -18,7 +18,7 @@ function Work() {
             <Container fluid style={{ maxWidth: '768px' }}>
                 <Row style={{ alignItems: 'center', position: 'sticky', top: '0', zIndex: '999' }}>
                     <Col style={{ justifyContent: 'center' }}>
-                        <TopNav Page='2' />
+                        <TopNav page='2' />
                     </Col>
                 </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '5vh' }}>

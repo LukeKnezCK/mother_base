@@ -16,7 +16,7 @@ function Home() {
             <Container fluid style={{ maxWidth: '768px' }}>
                 <Row style={{ alignItems: 'center', position: 'sticky', top: '0', zIndex: '999' }}>
                     <Col style={{ justifyContent: 'center' }}>
-                        <TopNav Page='1' />
+                        <TopNav page='1' />
                     </Col>
                 </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '5vh' }}>
