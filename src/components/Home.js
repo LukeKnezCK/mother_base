@@ -83,7 +83,7 @@ function Home() {
                 <Row style={{ justifyContent: 'center', marginTop: '3vh' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <a href='/#/Work' className='labelLink'>
+                            <a href='/mother_base/#/Work' className='labelLink'>
                                 <Card.Body className='labelCard'>
                                     Projects ►
                                 </Card.Body>
