@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mother_base/static/css/main.0f6e6b77.css",
+    "main.js": "/mother_base/static/js/main.e9a0e6e5.js",
+    "static/js/787.3f6299e2.chunk.js": "/mother_base/static/js/787.3f6299e2.chunk.js",
+    "static/media/DoReMeet.png": "/mother_base/static/media/DoReMeet.ad43598af2364de4dc3b.png",
+    "static/media/EER.png": "/mother_base/static/media/EER.d8c16d41df59bfb0196b.png",
+    "static/media/uLearn.PNG": "/mother_base/static/media/uLearn.6d1b4f2373538d8d8f17.PNG",
+    "static/media/RPS.png": "/mother_base/static/media/RPS.65b859d9d6b3318d4480.png",
+    "static/media/SourceCodePro-Light.ttf": "/mother_base/static/media/SourceCodePro-Light.cc319e9e34a69f4161ba.ttf",
+    "static/media/SourceCodePro-Regular.ttf": "/mother_base/static/media/SourceCodePro-Regular.3b5adc929c114d1cd0fc.ttf",
+    "static/media/MGS2MENU.TTF": "/mother_base/static/media/MGS2MENU.8dcc1f27288f29e2ec60.TTF",
+    "index.html": "/mother_base/index.html",
+    "main.0f6e6b77.css.map": "/mother_base/static/css/main.0f6e6b77.css.map",
+    "main.e9a0e6e5.js.map": "/mother_base/static/js/main.e9a0e6e5.js.map",
+    "787.3f6299e2.chunk.js.map": "/mother_base/static/js/787.3f6299e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f6e6b77.css",
+    "static/js/main.e9a0e6e5.js"
+  ]
+}
