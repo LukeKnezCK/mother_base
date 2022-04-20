@@ -73,6 +73,20 @@ For the coding portion of the website I used React since it's quick to get up an
 
 Most of the website was pretty basic to create, mainly just text, links, and images.
 
+The project structure is as follows.
+
+```
+src
+│   # Pictures and icons
+├── assets
+│   # React component files
+├── components
+│    │   #3D Model gltf files
+│    ├── models
+│   # Fonts
+├── fonts
+```
+
 I tried to keep things pretty modular, seperating large sections into individual components.
 
 ![Image of Navbar Component](/READMEassets/NavCode.PNG)
@@ -91,7 +105,7 @@ Each scene has specific lighting and camera properties.
 
 ![Image of Scene Code](/READMEassets/SceneCode.PNG)
 
-Once the site was for the (most part) complete I deployed it to github pages.
+Once the site was (for the most part) complete I deployed it to github pages.
 
 Going from the development build to production build often poses some issues, as does github pages.
 
