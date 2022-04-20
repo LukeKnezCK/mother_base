@@ -90,3 +90,19 @@ Once the models are converted we can add them as components into three js scenes
 Each scene has specific lighting and camera properties.
 
 ![Image of Scene Code](/READMEassets/SceneCode.PNG)
+
+Once the site was for the (most part) complete I deployed it to github pages.
+
+Going from the development build to production build often poses some issues, as does github pages.
+
+After fixing some routing issues, model loading issues, etc, the site was up and running properly!
+
+![Image of Final Site](/READMEassets/finalSite.PNG)
+
+## Final Comments
+
+I'm quite happy with how the project turned out. The design looks great in my opinion and I'm glad I got to implement some 3d models.
+
+I'll probably come back to this from time to time and update it with more relevant info, specifically the work section.
+
+Finally, if you're reading this and have any questions on the development or anything else please feel free to shoot me a message!
