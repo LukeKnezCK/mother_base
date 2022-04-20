@@ -66,3 +66,21 @@ Here are the renders for the other models I made for the site
 ![Image of Muni Model](/READMEassets/MuniStation.png)
 
 ![Image of Room Model](/READMEassets/room.png)
+
+### Coding 
+
+For the coding portion of the website I used React since it's quick to get up and running and has plenty of open source libraries to play with.
+
+Most of the website was pretty basic to create, mainly just text, links, and images.
+
+I tried to keep things pretty modular, seperating large sections into individual components.
+
+![Image of Navbar Component](/READMEassets/NavCode.PNG)
+
+In order to add the voxel models to the site I used a library called three js.
+
+To use the models they first need to be converted from gltf format into jsx components.
+
+To convert the models I used the gltfjsx command-line tool.
+
+![Image of Model Code](/READMEassets/ModelCode.PNG)
