@@ -84,3 +84,9 @@ To use the models they first need to be converted from gltf format into jsx comp
 To convert the models I used the gltfjsx command-line tool.
 
 ![Image of Model Code](/READMEassets/ModelCode.PNG)
+
+Once the models are converted we can add them as components into three js scenes on each page.
+
+Each scene has specific lighting and camera properties.
+
+![Image of Scene Code](/READMEassets/SceneCode.PNG)
