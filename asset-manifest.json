@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/mother_base/static/css/main.0f6e6b77.css",
-    "main.js": "/mother_base/static/js/main.e7c34638.js",
+    "main.css": "/mother_base/static/css/main.bd27c61b.css",
+    "main.js": "/mother_base/static/js/main.d41690a6.js",
     "static/js/787.3f6299e2.chunk.js": "/mother_base/static/js/787.3f6299e2.chunk.js",
     "static/media/Muni.gltf": "/mother_base/static/media/Muni.84991d77e50ba099ed50.gltf",
     "static/media/Room.gltf": "/mother_base/static/media/Room.e32ca1faef196fe0ec50.gltf",
     "static/media/Mb2.gltf": "/mother_base/static/media/Mb2.ac90604f644daa5a8268.gltf",
-    "static/media/DoReMeet.png": "/mother_base/static/media/DoReMeet.ad43598af2364de4dc3b.png",
+    "static/media/uLearn2.png": "/mother_base/static/media/uLearn2.a0c5a57bc72f9a67a8ec.png",
+    "static/media/ERD.png": "/mother_base/static/media/ERD.76eca16e71b7537b2173.png",
     "static/media/EER.png": "/mother_base/static/media/EER.d8c16d41df59bfb0196b.png",
+    "static/media/uLearn3.png": "/mother_base/static/media/uLearn3.ee7e8695c1b1ac94082e.png",
+    "static/media/clamHome.png": "/mother_base/static/media/clamHome.c5c972e7b6090c7c2660.png",
     "static/media/uLearn.PNG": "/mother_base/static/media/uLearn.6d1b4f2373538d8d8f17.PNG",
     "static/media/RPS.png": "/mother_base/static/media/RPS.65b859d9d6b3318d4480.png",
     "static/media/SourceCodePro-Light.ttf": "/mother_base/static/media/SourceCodePro-Light.cc319e9e34a69f4161ba.ttf",
     "static/media/SourceCodePro-Regular.ttf": "/mother_base/static/media/SourceCodePro-Regular.3b5adc929c114d1cd0fc.ttf",
+    "static/media/clamJam2.png": "/mother_base/static/media/clamJam2.6d2f636c2b687194707b.png",
+    "static/media/clamJam1.png": "/mother_base/static/media/clamJam1.3da1284b0f3b0e7c11ea.png",
+    "static/media/RPS3.png": "/mother_base/static/media/RPS3.c16095dcc76dca11a349.png",
     "static/media/MGS2MENU.TTF": "/mother_base/static/media/MGS2MENU.8dcc1f27288f29e2ec60.TTF",
+    "static/media/RPS2.png": "/mother_base/static/media/RPS2.867b089481e8adb22705.png",
     "index.html": "/mother_base/index.html",
-    "main.0f6e6b77.css.map": "/mother_base/static/css/main.0f6e6b77.css.map",
-    "main.e7c34638.js.map": "/mother_base/static/js/main.e7c34638.js.map",
+    "main.bd27c61b.css.map": "/mother_base/static/css/main.bd27c61b.css.map",
+    "main.d41690a6.js.map": "/mother_base/static/js/main.d41690a6.js.map",
     "787.3f6299e2.chunk.js.map": "/mother_base/static/js/787.3f6299e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f6e6b77.css",
-    "static/js/main.e7c34638.js"
+    "static/css/main.bd27c61b.css",
+    "static/js/main.d41690a6.js"
   ]
 }
