@@ -1,13 +1,13 @@
 import '../App.css'
 import { Container, Row, Col, Card } from 'react-bootstrap'
-import {FaGithub} from 'react-icons/fa'
-import {AiOutlineSmile} from 'react-icons/ai'
+import { FaGithub } from 'react-icons/fa'
+import { AiOutlineSmile } from 'react-icons/ai'
 import ClamJam1 from '../assets/clamHome.png'
 import ClamJam2 from '../assets/clamJam1.png'
 import ClamJam3 from '../assets/clamJam2.png'
 
-import {BsGear, BsFileCode} from 'react-icons/bs'
-import {BiLinkExternal} from 'react-icons/bi'
+import { BsGear, BsFileCode } from 'react-icons/bs'
+import { BiLinkExternal } from 'react-icons/bi'
 
 import TopNav from './TopNav'
 
@@ -24,10 +24,10 @@ function ClamJam() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={ClamJam1} alt='uLearn thumbnail'/>
+                            <img src={ClamJam1} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='textBox'>
@@ -40,7 +40,7 @@ function ClamJam() {
                         <Card className='longBox'>
                             <Card.Body className='longText'>
                                 Desc: Clam Jam is a musical application that allows you to play with various instruments/sound-fonts
-                                 and waveform visualizers in your browser. You can also compose and listen to songs using the playlist feature!
+                                and waveform visualizers in your browser. You can also compose and listen to songs using the playlist feature!
                             </Card.Body>
                         </Card>
                     </Col>
@@ -48,10 +48,12 @@ function ClamJam() {
                 <Row>
                     <Col>
                         <Card className='longBox'>
-                            <Card.Body className='longText' style={{textAlign:'center'}}>
-                                <p><BsGear/> Tech Used: React, TypeScript, Three.JS, SQLite3</p>
-                                <p><BiLinkExternal/> Live Site: Currently Unavailable :(</p>
-                                <p><BsFileCode/> Source Code: <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>Click here to email me and request the source code!</a></p>
+                            <Card.Body className='longText' style={{ textAlign: 'center' }}>
+                                <p><BsGear /> Tech Used: React, TypeScript, Three.JS, SQLite3</p>
+                                <p><BiLinkExternal /> Live Site: Currently Unavailable :(</p>
+                                <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>
+                                    <p><BsFileCode /> Source Code: Click here to email me and request the source code!</p>
+                                </a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -59,17 +61,17 @@ function ClamJam() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={ClamJam2} alt='uLearn thumbnail'/>
+                            <img src={ClamJam2} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={ClamJam3} alt='uLearn thumbnail'/>
+                            <img src={ClamJam3} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '3vh' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
@@ -81,10 +83,10 @@ function ClamJam() {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center'}}>
-                    <Col style={{maxWidth:'fit-content'}}>
+                <Row style={{ justifyContent: 'center' }}>
+                    <Col style={{ maxWidth: 'fit-content' }}>
                         <div className='footer'>
-                            <p>Created By LCK 2022 <AiOutlineSmile/> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub/></a> </p>
+                            <p>Created By LCK 2022 <AiOutlineSmile /> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub /></a> </p>
                         </div>
                     </Col>
                 </Row>

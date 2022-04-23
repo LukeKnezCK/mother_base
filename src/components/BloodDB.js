@@ -1,12 +1,12 @@
 
 import '../App.css'
 import { Container, Row, Col, Card } from 'react-bootstrap'
-import {FaGithub} from 'react-icons/fa'
-import {AiOutlineSmile} from 'react-icons/ai'
+import { FaGithub } from 'react-icons/fa'
+import { AiOutlineSmile } from 'react-icons/ai'
 import BloodDB1 from '../assets/EER.png'
 import BloodDB2 from '../assets/ERD.png'
 
-import {BsGear, BsFileCode} from 'react-icons/bs'
+import { BsGear, BsFileCode } from 'react-icons/bs'
 
 import TopNav from './TopNav'
 
@@ -23,10 +23,10 @@ function BloodDB() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={BloodDB1} alt='uLearn thumbnail'/>
+                            <img src={BloodDB1} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='textBox'>
@@ -47,9 +47,11 @@ function BloodDB() {
                 <Row>
                     <Col>
                         <Card className='longBox'>
-                            <Card.Body className='longText' style={{textAlign:'center'}}>
-                                <p><BsGear/> Tech Used: MySQL, Python</p>
-                                <p><BsFileCode/> Source Code: <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>Click here to email me and request the source code!</a></p>
+                            <Card.Body className='longText' style={{ textAlign: 'center' }}>
+                                <p><BsGear /> Tech Used: MySQL, Python</p>
+                                <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>
+                                    <p><BsFileCode /> Source Code: Click here to email me and request the source code!</p>
+                                </a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -57,10 +59,10 @@ function BloodDB() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={BloodDB2} alt='uLearn thumbnail'/>
+                            <img src={BloodDB2} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '3vh' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
@@ -72,10 +74,10 @@ function BloodDB() {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center'}}>
-                    <Col style={{maxWidth:'fit-content'}}>
+                <Row style={{ justifyContent: 'center' }}>
+                    <Col style={{ maxWidth: 'fit-content' }}>
                         <div className='footer'>
-                            <p>Created By LCK 2022 <AiOutlineSmile/> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub/></a> </p>
+                            <p>Created By LCK 2022 <AiOutlineSmile /> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub /></a> </p>
                         </div>
                     </Col>
                 </Row>

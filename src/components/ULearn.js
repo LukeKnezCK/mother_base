@@ -1,13 +1,13 @@
 import '../App.css'
 import { Container, Row, Col, Card } from 'react-bootstrap'
-import {FaGithub} from 'react-icons/fa'
-import {AiOutlineSmile} from 'react-icons/ai'
+import { FaGithub } from 'react-icons/fa'
+import { AiOutlineSmile } from 'react-icons/ai'
 import uLearn1 from '../assets/uLearn.PNG'
 import uLearn2 from '../assets/uLearn2.png'
 import uLearn3 from '../assets/uLearn3.png'
 
-import {BsGear, BsFileCode} from 'react-icons/bs'
-import {BiLinkExternal} from 'react-icons/bi'
+import { BsGear, BsFileCode } from 'react-icons/bs'
+import { BiLinkExternal } from 'react-icons/bi'
 
 import TopNav from './TopNav'
 
@@ -24,10 +24,10 @@ function ULearn() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={uLearn1} alt='uLearn thumbnail'/>
+                            <img src={uLearn1} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='textBox'>
@@ -39,9 +39,9 @@ function ULearn() {
                     <Col>
                         <Card className='longBox'>
                             <Card.Body className='longText'>
-                                Desc: uLearn is a learning management system with a strong focus on easy usability and powerful tools. 
-                                Meant to serve as a redesign of the SFSU iLearn site, uLearn makes aims to cater specifically to 
-                                student and instructor needs in ways iLearn does not. 
+                                Desc: uLearn is a learning management system with a strong focus on easy usability and powerful tools.
+                                Meant to serve as a redesign of the SFSU iLearn site, uLearn makes aims to cater specifically to
+                                student and instructor needs in ways iLearn does not.
                             </Card.Body>
                         </Card>
                     </Col>
@@ -49,10 +49,14 @@ function ULearn() {
                 <Row>
                     <Col>
                         <Card className='longBox'>
-                            <Card.Body className='longText' style={{textAlign:'center'}}>
-                                <p><BsGear/> Tech Used: React, JavaScript, Figma, Github Pages</p>
-                                <p><BiLinkExternal/> Live Site: <a href='https://team2-csc642.github.io/ulearn/' target="_blank" rel='noreferrer'className='workLink'>https://team2-csc642.github.io/ulearn/</a></p>
-                                <p><BsFileCode/> Source Code: <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>Click here to email me and request the source code!</a></p>
+                            <Card.Body className='longText' style={{ textAlign: 'center' }}>
+                                <p><BsGear /> Tech Used: React, JavaScript, Figma, Github Pages</p>
+                                <a href='https://team2-csc642.github.io/ulearn/' target="_blank" rel='noreferrer' className='workLink'>
+                                    <p><BiLinkExternal /> Live Site: https://team2-csc642.github.io/ulearn/</p>
+                                </a>
+                                <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>
+                                    <p><BsFileCode /> Source Code: Click here to email me and request the source code!</p>
+                                </a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -60,17 +64,17 @@ function ULearn() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={uLearn2} alt='uLearn thumbnail'/>
+                            <img src={uLearn2} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={uLearn3} alt='uLearn thumbnail'/>
+                            <img src={uLearn3} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '3vh' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
@@ -82,10 +86,10 @@ function ULearn() {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center'}}>
-                    <Col style={{maxWidth:'fit-content'}}>
+                <Row style={{ justifyContent: 'center' }}>
+                    <Col style={{ maxWidth: 'fit-content' }}>
                         <div className='footer'>
-                            <p>Created By LCK 2022 <AiOutlineSmile/> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub/></a> </p>
+                            <p>Created By LCK 2022 <AiOutlineSmile /> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub /></a> </p>
                         </div>
                     </Col>
                 </Row>

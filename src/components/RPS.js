@@ -1,14 +1,14 @@
 import '../App.css'
 import { Container, Row, Col, Card } from 'react-bootstrap'
-import {FaGithub} from 'react-icons/fa'
-import {AiOutlineSmile} from 'react-icons/ai'
+import { FaGithub } from 'react-icons/fa'
+import { AiOutlineSmile } from 'react-icons/ai'
 import RPS1 from '../assets/RPS.png'
 import RPS2 from '../assets/RPS2.png'
 import RPS3 from '../assets/RPS3.png'
 
 
-import {BsGear, BsFileCode} from 'react-icons/bs'
-import {BiLinkExternal} from 'react-icons/bi'
+import { BsGear, BsFileCode } from 'react-icons/bs'
+import { BiLinkExternal } from 'react-icons/bi'
 
 import TopNav from './TopNav'
 
@@ -25,10 +25,10 @@ function RPS() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={RPS2} alt='uLearn thumbnail'/>
+                            <img src={RPS2} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='textBox'>
@@ -49,10 +49,12 @@ function RPS() {
                 <Row>
                     <Col>
                         <Card className='longBox'>
-                            <Card.Body className='longText' style={{textAlign:'center'}}>
-                                <p><BsGear/> Tech Used: React, Java, Spark, AWS, MongoDB</p>
-                                <p><BiLinkExternal/> Live Site: Currently Unavailable :(</p>
-                                <p><BsFileCode/> Source Code: <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>Click here to email me and request the source code!</a></p>
+                            <Card.Body className='longText' style={{ textAlign: 'center' }}>
+                                <p><BsGear /> Tech Used: React, Java, Spark, AWS, MongoDB</p>
+                                <p><BiLinkExternal /> Live Site: Currently Unavailable :(</p>
+                                <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>
+                                    <p><BsFileCode /> Source Code: Click here to email me and request the source code!</p>
+                                </a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -60,17 +62,17 @@ function RPS() {
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={RPS1} alt='uLearn thumbnail'/>
+                            <img src={RPS1} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
-                            <img src={RPS3} alt='uLearn thumbnail'/>
+                            <img src={RPS3} alt='uLearn thumbnail' />
                         </Card>
                     </Col>
-                </Row> 
+                </Row>
                 <Row style={{ justifyContent: 'center', marginTop: '3vh' }}>
                     <Col style={{ maxWidth: 'fit-content' }}>
                         <Card className='labelBox'>
@@ -82,10 +84,10 @@ function RPS() {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{justifyContent:'center'}}>
-                    <Col style={{maxWidth:'fit-content'}}>
+                <Row style={{ justifyContent: 'center' }}>
+                    <Col style={{ maxWidth: 'fit-content' }}>
                         <div className='footer'>
-                            <p>Created By LCK 2022 <AiOutlineSmile/> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub/></a> </p>
+                            <p>Created By LCK 2022 <AiOutlineSmile /> <a href='https://github.com/LukeKnezCK/mother_base' target="_blank" rel='noreferrer' className='footerSource'>Source Code <FaGithub /></a> </p>
                         </div>
                     </Col>
                 </Row>
