@@ -62,6 +62,7 @@
 .longText{
   color:white;
   font-size: 1em;
+  vertical-align: middle;
 }
 
 .longBox{ 
@@ -169,4 +170,18 @@
 
 .footerSource:hover{
   color: rgb(155, 210, 255);
+}
+
+.workLink{
+  text-decoration: none;
+  color: white;
+}
+
+.workLink:hover{
+  color: rgb(155, 210, 255);
+}
+
+.workTitle{
+  color:white;
+  font-size: 1.75em;
 }
