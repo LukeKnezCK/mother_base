@@ -48,7 +48,7 @@ function BloodDB() {
                     <Col>
                         <Card className='longBox'>
                             <Card.Body className='longText' style={{textAlign:'center'}}>
-                                <p><BsGear/> Tech Used: React, TypeScript, Three.JS, SQLite3</p>
+                                <p><BsGear/> Tech Used: MySQL, Python</p>
                                 <p><BsFileCode/> Source Code: <a href='mailto: LukeKnez1386@protonmail.com' target="_blank" rel='noreferrer' className='workLink'>Click here to email me and request the source code!</a></p>
                             </Card.Body>
                         </Card>
